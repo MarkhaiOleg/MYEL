@@ -314,3 +314,46 @@ background: url(image/Rectangle\ \(1\).jpg) no-repeat;
     padding-left: 5%;
     margin-top: 125%;
 }
+
+.section-4{
+    margin: 12.8rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/*SECTION6*/
+
+.section-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 7.14rem;
+}
+.section-6-item-left{
+   background: url(image/books.jpg) no-repeat;
+   width: 50%;
+   height: 900px;
+}
+
+.section-6-item-right{
+    background: url(image/book.jpg) no-repeat;
+    width: 50%;
+    height: 900px;
+}
+
+.section-6-item-right-p{
+    padding-left: 5%;
+    padding-top: 3%;
+    font-size: 1.28rem;
+}
+
+.section-6-item-left-link{
+    color: #000;
+    text-decoration: none;
+}
+
+.section-6-item-left-link:hover{
+    color: #C4C4C4;
+}
