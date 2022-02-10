@@ -116,14 +116,14 @@ background: url(image/Rectangle\ \(1\).jpg) no-repeat;
 }
 
 .section-2{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
 }
 
 .section-2-title{
-    width: 70vw;
+    width: 60vw;
     padding-top: 8.28rem;
     margin-right: 0;
     margin-left: 7%;
@@ -142,7 +142,7 @@ background: url(image/Rectangle\ \(1\).jpg) no-repeat;
 .section-2-link{
     width: 18rem;
     height: 2rem;
-    margin-right: 1%;
+    margin-left: 20%;
     padding-top: 13rem;
     font-size: 1.28rem;
     color: #000;
