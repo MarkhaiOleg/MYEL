@@ -271,3 +271,46 @@ background: url(image/Rectangle\ \(1\).jpg) no-repeat;
    padding-left: 8%;
    font-size: 1rem;
 }
+
+
+/*SECTION5*/
+
+.section-5-main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.section-5-main-item-left{
+    height: 600px;
+    width: 30%;
+    background: url(image/rings.jpg) no-repeat;
+}
+
+.section-5-main-item-center{
+    height: 600px;
+    width: 30%;
+    background: url(image/center.jpg) no-repeat; 
+}
+    
+.section-5-main-item-right{
+    height: 600px;
+    width: 30%;
+    background: url(image/Earrings.jpg) no-repeat; 
+}
+
+.section-5-main-link{
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.section-5-main-link:hover{
+    color: #C4C4C4;
+}
+
+.section-5-main-p{
+    padding-left: 5%;
+    margin-top: 125%;
+}
