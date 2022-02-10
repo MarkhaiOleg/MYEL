@@ -500,3 +500,32 @@ margin-left: 5%;
 .section-9-nav-item:hover{
     color: #C4C4C4;
 }
+
+.section-9-main-buttom{
+    margin-left: 5%;
+    margin-top: 10%;
+    color: #fff;
+}
+
+.section-9-h3{
+    font-size: 3rem;
+    width: 23vw;
+}
+
+.section-9-p{
+    font-size: 1.2rem;
+}
+
+.section-9-button{
+    border: none;
+    background: none;
+    margin-left: 28%;
+}
+
+.section-9-button:hover{
+    background-color: #C4C4C4;
+}
+
+.section-9-button:active{
+    background-color: #D8BF95;
+}
