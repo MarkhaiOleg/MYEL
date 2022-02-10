@@ -392,3 +392,83 @@ margin-left: 10%;
 .section-7-namber{
     font-size: 2rem;
 }
+
+.section-7-link{
+    margin-top: 2rem;
+    margin-left: 13%;
+}
+
+.section-7-link-item{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.section-7-link-item:hover{
+    color: #C4C4C4;
+}
+
+/*SECTION8*/
+
+.section-8{
+    width: 100%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-8-item-left{
+   background: url(image/section8left.jpg) no-repeat;
+   width: 50%;
+   height: 900px;
+}
+
+.section-8-item-right{
+    background: url(image/section8right.jpg) no-repeat;
+    width: 50%;
+    height: 900px;
+
+}
+
+.section-8-p{
+margin-left: 5%;
+margin-top: 5%;
+}
+
+.section-8-link-left{
+    font-size: 1.3rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.section-8-link-right{
+    font-size: 3.3rem;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.section-8-link-right:hover{
+    color: #C4C4C4;
+}
+
+.section-8-link-left:hover{
+    background-color:#000;
+    color: #C4C4C4;
+}
+
+.section-8-p-left-2{
+margin-top: 95%;
+margin-left: 5%;
+}
+
+.section-8-link-right-2{
+    font-size: 1.3rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.section-8-link-right-2:hover{
+    color: #C4C4C4;
+}
