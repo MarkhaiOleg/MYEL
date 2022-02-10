@@ -229,3 +229,45 @@ background: url(image/Rectangle\ \(1\).jpg) no-repeat;
 .sectio-3-bottom-level-item-info-link:hover{
     color: #C4C4C4;
 }
+
+/*SECTION4*/
+
+.section-4{
+    margin: 12.8rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-4-item-left{
+   background: url(image/tshirtgirl.jpg) no-repeat;
+   width: 50%;
+   height: 900px;
+}
+
+.section-4-item-right{
+    background: url(image/tshirt.jpg) no-repeat;
+    width: 50%;
+    height: 900px;
+
+}
+
+.section-4-item-right-h3{
+    font-size: 3.14rem;
+    padding-left: 8%;
+}
+
+.section-4-item-right-link{
+    color: #000;
+    text-decoration: none;
+}
+
+.section-4-item-right-link:hover{
+    color: #C4C4C4;
+}
+
+.section-4-item-right-p{
+   margin-top: 115%;
+   padding-left: 8%;
+   font-size: 1rem;
+}
