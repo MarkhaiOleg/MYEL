@@ -22,7 +22,7 @@ body{
 
 .page-header{
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 88px;
     justify-content: space-around;
     align-items: center;
@@ -116,14 +116,14 @@ background: url(image/Rectangle\ \(1\).jpg) no-repeat;
 }
 
 .section-2{
-    width: 90vw;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
 }
 
 .section-2-title{
-    width: 70%;
+    width: 70vw;
     padding-top: 8.28rem;
     margin-right: 0;
     margin-left: 7%;
@@ -155,7 +155,7 @@ background: url(image/Rectangle\ \(1\).jpg) no-repeat;
 
 /*SECTION3*/
 .section-3{
-    width: 90vw;
+    width: 90%;
     margin: 0 auto;
     color: #000;
 }
@@ -234,6 +234,7 @@ background: url(image/Rectangle\ \(1\).jpg) no-repeat;
 /*SECTION4*/
 
 .section-4{
+    width: 100%;
     margin: 12.8rem auto;
     display: flex;
     flex-direction: row;
@@ -275,6 +276,7 @@ background: url(image/Rectangle\ \(1\).jpg) no-repeat;
 
 
 /*SECTION5*/
+
 
 .section-5-main-content{
     display: flex;
@@ -357,4 +359,36 @@ background: url(image/Rectangle\ \(1\).jpg) no-repeat;
 
 .section-6-item-left-link:hover{
     color: #C4C4C4;
+}
+
+/*SECTION7*/
+.section-7{
+    width: 100%;
+}
+.section-7-h2{
+    width: 50%;
+    margin-top: 10.7rem;
+    margin-left: 5%;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.section-7-main{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 6rem;
+}
+
+.section-7-img{
+margin-left: 10%;
+}
+
+.section-7-buttom-text{
+    width: 15vw;
+    font-size: 1.3rem;
+}
+
+.section-7-namber{
+    font-size: 2rem;
 }
