@@ -76,6 +76,10 @@ background-color: #000;
     vertical-align: bottom;
 }
 
+.section-1-img-second{
+background: url(image/Rectangle\ \(1\).jpg) no-repeat;
+}
+
 .section-1-img-third{
     background: url(image/Rectangle\ \(2\).jpg) no-repeat;
     width: 33.33%;
@@ -111,9 +115,10 @@ background-color: #000;
 }
 
 .section-2{
+    width: 90vw;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    
 }
 
 .section-2-title{
@@ -134,7 +139,9 @@ background-color: #000;
 }
 
 .section-2-link{
-    width: 30%;
+    width: 18rem;
+    height: 2rem;
+    margin-right: 1%;
     padding-top: 13rem;
     font-size: 1.28rem;
     color: #000;
@@ -142,5 +149,83 @@ background-color: #000;
 }
 
 .section-2-link:hover{
+    color: #C4C4C4;
+}
+
+/*SECTION3*/
+.section-3{
+    width: 90vw;
+    margin: 0 auto;
+    color: #000;
+}
+.sectio-3-high-level{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 11rem;
+}
+
+.section-3-high-level-link{
+    font-size: 1.71rem;
+    line-height: 2rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.section-3-high-level-link:hover{
+    color: #C4C4C4;
+}
+
+.section-3-high-level-buttons{
+    margin-right: 5rem;
+}
+
+.section-3-high-level-button{
+    background-color:#F1F1F1;
+    border: none;
+}
+
+.section-3-high-level-button:hover{
+    background-color: #D8BF95;
+}
+
+.sectio-3-bottom-level{
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    width: 88%;
+    margin: 4rem auto;
+    justify-content: space-around;
+}
+
+.sectio-3-bottom-level-item h3{
+    font-size: 1rem;
+}
+
+.section-3-img{
+    border: 2px solid #C4C4C4;
+}
+
+.sectio-3-bottom-level-item{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.sectio-3-bottom-level-item-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sectio-3-bottom-level-item-info-link{
+    color: #000;
+    text-decoration: none;
+}
+
+.sectio-3-bottom-level-item-info-link:hover{
     color: #C4C4C4;
 }
